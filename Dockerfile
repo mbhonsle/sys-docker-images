@@ -1,9 +1,8 @@
 #####################################################
 ## installs gcc make git bc
 ## installs FUSE (File System in User Space)
-## compiles a simple hello.c filesystem
 ## run the container with these params: 
-## 	--cap-add SYS_ADMIN --device /dev/fuse
+## 	--cap-add SYS_ADMIN --device /dev/fuse --privileged
 #####################################################
 
 # set the base image
